@@ -1353,7 +1353,7 @@ class Builder implements BuilderContract
     /**
      * Add an "or where not null" clause to the query.
      *
-     * @param  string  $column
+     * @param  string|array  $column
      * @return $this
      */
     public function orWhereNotNull($column)
